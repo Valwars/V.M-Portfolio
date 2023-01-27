@@ -709,3 +709,21 @@ footer p {
         height: 50vh;
     }
 }
+
+@supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button,
+    p,
+    span,
+    ul,
+    li,
+    a textarea {
+        /*reset for mobile browsers */
+        font-weight: normal !important;
+    }
+}
