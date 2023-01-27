@@ -1,0 +1,27 @@
+.socialBar i {
+    color: var(--text-color);
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+
+.socialBar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10%;
+}
+
+footer .socialBar {
+    flex-direction: row;
+    top: auto;
+    left: auto;
+    transform: translate(0, 0);
+}
+
+footer .socialBar i {
+    margin: 0;
+    margin-left: 2vw;
+}
