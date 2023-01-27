@@ -25,3 +25,15 @@ footer .socialBar i {
     margin: 0;
     margin-left: 2vw;
 }
+
+@media (max-width: 820px) and (orientation: portrait) {
+    .home-left .socialBar {
+        position: absolute;
+        left: 112.5%;
+        top: 40%;
+    }
+    .home-left .socialBar i {
+        font-size: 5vw;
+        margin-bottom: 2vh;
+    }
+}
