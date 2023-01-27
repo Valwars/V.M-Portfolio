@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/V.M-Portfolio/static/css/main.1877e26d.css",
+    "main.css": "/V.M-Portfolio/static/css/main.8a3c18b1.css",
     "main.js": "/V.M-Portfolio/static/js/main.88063c4f.js",
     "static/js/787.43d88a3b.chunk.js": "/V.M-Portfolio/static/js/787.43d88a3b.chunk.js",
     "static/media/LeagueSpartan-ExtraBold.ttf": "/V.M-Portfolio/static/media/LeagueSpartan-ExtraBold.313960b9ece03f269643.ttf",
@@ -9,12 +9,12 @@
     "static/media/LeagueSpartan-Regular.ttf": "/V.M-Portfolio/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf",
     "static/media/logo.svg": "/V.M-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/V.M-Portfolio/index.html",
-    "main.1877e26d.css.map": "/V.M-Portfolio/static/css/main.1877e26d.css.map",
+    "main.8a3c18b1.css.map": "/V.M-Portfolio/static/css/main.8a3c18b1.css.map",
     "main.88063c4f.js.map": "/V.M-Portfolio/static/js/main.88063c4f.js.map",
     "787.43d88a3b.chunk.js.map": "/V.M-Portfolio/static/js/787.43d88a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1877e26d.css",
+    "static/css/main.8a3c18b1.css",
     "static/js/main.88063c4f.js"
   ]
 }
