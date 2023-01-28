@@ -723,9 +723,6 @@ footer p {
     .content-design {
         height: 50vh;
     }
-    .arrow_container h2 {
-        top: -3vh;
-    }
     .website {
         font-size: 5vw !important;
         margin-bottom: 10vh;
@@ -753,7 +750,21 @@ footer p {
     }
     .second .arrow_container h2 {
         max-width: 45vw;
-        top: -3vh;
+    }
+    .second .arrow_container:nth-child(1) {
+        top: 10%;
+    }
+    .second .arrow_container:nth-child(2) {
+        top: 20%;
+    }
+    .second .arrow_container:nth-child(3) {
+        top: 30%;
+    }
+    .second .arrow_container:nth-child(4) {
+        top: 50%;
+    }
+    .second .arrow_container:nth-child(5) {
+        top: 85%;
     }
     .card-con {
         flex-direction: column;
