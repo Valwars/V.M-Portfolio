@@ -364,7 +364,6 @@ h2 {
     position: absolute;
     left: -60%;
     top: -5vh;
-    font-size: 2.2vw;
     width: 60%;
 }
 
@@ -655,7 +654,7 @@ footer p {
         position: absolute;
         top: 60vh;
         left: 35%;
-        width: 100%;
+        width: 80vw;
         margin: auto;
     }
     h1 {
@@ -697,16 +696,103 @@ footer p {
     }
     .size div {
         font-size: 4vw;
-        max-width: 80vw;
+        max-width: 70vw;
+        padding-left: 5%;
     }
     .size div:nth-child(3) {
         left: 10%;
     }
     .size div:nth-child(2) {
-        left: 20%;
+        left: 10%;
     }
     .content-design {
         height: 50vh;
+    }
+    .arrow_container h2 {
+        top: -3vh;
+    }
+    .website {
+        font-size: 5vw !important;
+        margin-bottom: 10vh;
+    }
+    .second .arrow_container:nth-child(1) h2 {
+        width: fit-content;
+        left: -140%;
+    }
+    .second .arrow_container:nth-child(2) h2 {
+        left: -110%;
+        width: fit-content;
+    }
+    .second .arrow_container:nth-child(3) h2 {
+        width: fit-content;
+        left: -90%;
+    }
+    .second .arrow_container:nth-child(4) h2 {
+        left: -80%;
+        width: fit-content;
+    }
+    .second .arrow_container:nth-child(5) h2 {
+        left: -100%;
+        width: fit-content;
+    }
+    .second .arrow_container h2 {
+        max-width: 45vw;
+        top: -3.1vh;
+    }
+    .card-con {
+        flex-direction: column;
+    }
+    img {
+        height: 35vh;
+    }
+    .card-project h2 {
+        font-size: 8vw;
+    }
+    .card-project p {
+        font-size: 6vw;
+    }
+    .content-card {
+        width: 90%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-left {
+        width: 100%;
+    }
+    .contact-left h1 {
+        width: 90%;
+    }
+    .contact-right {
+        width: 100%;
+    }
+    .contact-right form div label {
+        font-size: 5vw;
+    }
+    input,
+    textarea {
+        font-size: 16px;
+    }
+    .contact-right form div button {
+        font-size: 4vw;
+    }
+    footer h1 {
+        font-size: 8vw;
+    }
+    footer .socialBar i {
+        font-size: 4vw;
+    }
+    footer p {
+        font-size: 4vw;
+    }
+    footer h3 {
+        font-size: 5vw;
+    }
+    .Toastify__toast--error {
+        font-size: 3vw !important;
+    }
+    .Toastify__toast--success {
+        font-size: 3vw !important;
     }
 }
 
