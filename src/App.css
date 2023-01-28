@@ -47,6 +47,10 @@ body::-webkit-scrollbar {
     background-color: var(--background-color);
 }
 
+#contact {
+    font-family: "Spartan-medium";
+}
+
 body::-webkit-scrollbar-thumb {
     height: 56px;
     border-radius: 8px;
