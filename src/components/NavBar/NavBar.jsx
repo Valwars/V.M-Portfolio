@@ -20,10 +20,11 @@ const NavBar = () => {
         <li onClick={() => scrollTo("about")}>About me</li>
         <li onClick={() => scrollTo("project")}>Projects</li>
 
-        <li id="contact" onClick={() => scrollTo("contact-form")}>
-          Contact
-        </li>
+        <li onClick={() => scrollTo("contact-form")}>Contact</li>
       </ul>
+      <button id="contact" onClick={() => scrollTo("contact-form")}>
+        Contact
+      </button>
     </header>
   );
 };
