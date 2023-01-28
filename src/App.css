@@ -829,7 +829,7 @@ footer p {
         overflow-x: hidden;
     }
     .single {
-        top: -3vh;
+        top: -3vh !important;
     }
 }
 
