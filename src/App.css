@@ -749,7 +749,7 @@ footer p {
     }
     .second .arrow_container h2 {
         max-width: 45vw;
-        top: -3.1vh;
+        top: -3vh;
     }
     .card-con {
         flex-direction: column;
