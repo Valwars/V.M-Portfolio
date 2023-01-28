@@ -714,6 +714,7 @@ footer p {
     .website {
         font-size: 5vw !important;
         margin-bottom: 10vh;
+        padding: 5%;
     }
     .second .arrow_container:nth-child(1) h2 {
         width: fit-content;
@@ -749,7 +750,7 @@ footer p {
         font-size: 8vw;
     }
     .card-project p {
-        font-size: 6vw;
+        font-size: 4vw;
     }
     .content-card {
         width: 90%;
@@ -793,6 +794,9 @@ footer p {
     }
     .Toastify__toast--success {
         font-size: 3vw !important;
+    }
+    .card_left {
+        margin-bottom: 10%;
     }
 }
 
