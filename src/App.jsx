@@ -81,6 +81,7 @@ function App() {
               data-aos="fade-right"
               data-aos-duration="500"
               data-aos-delay="1000"
+              data-aos-offset="-200"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
