@@ -20,7 +20,7 @@ const Creator = () => {
           data-aos-once="true"
         >
           <div className="arrow"></div>
-          <h2>Design</h2>
+          <h2 className="single">Design</h2>
         </div>
 
         <div
@@ -31,7 +31,7 @@ const Creator = () => {
           data-aos-once="true"
         >
           <div className="arrow"></div>
-          <h2>Video editing </h2>
+          <h2 className="single">Video editing </h2>
         </div>
 
         <div
@@ -75,7 +75,7 @@ const Creator = () => {
           data-aos-once="true"
         >
           <div className="arrow"></div>
-          <h2>Creativity</h2>
+          <h2 className="single">Creativity</h2>
         </div>
 
         <div
@@ -86,7 +86,7 @@ const Creator = () => {
           data-aos-once="true"
         >
           <div className="arrow"></div>
-          <h2>Communication</h2>
+          <h2 className="single">Communication</h2>
         </div>
       </div>
 
