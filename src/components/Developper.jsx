@@ -3,8 +3,10 @@ const Dev = () => {
     <div className="content" id="about">
       <h1>Developer</h1>
       <h2>
-        I have a computer science degree and many personnals projects in
-        development.
+        Originally from Toulouse, France. I'm in my third year of computer
+        science degree and I'm aiming for a master in software science. Beside
+        the university I have also acquired and developed a lot of skills that
+        you will discover by continuing to scroll.
       </h2>
       <div className="info_container">
         <div
