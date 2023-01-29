@@ -828,6 +828,9 @@ footer p {
     .single {
         top: -3vh !important;
     }
+    img {
+        max-height: 35vh;
+    }
 }
 
 @supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
