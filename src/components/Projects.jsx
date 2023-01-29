@@ -5,7 +5,7 @@ const Project = () => {
     {
       title: "Dev Academy",
       content:
-        "Dev academy is the website linked to my instagram account, I offerfree tutorials, and I am currently working on premium courses.",
+        "Dev academy is the website linked to my instagram account, I offer free tutorials, and I am currently working on premium courses.",
       img: "p1.png",
       languages: "Node JS, React JS, Mongo DB.",
     },
