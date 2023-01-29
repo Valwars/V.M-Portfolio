@@ -470,6 +470,7 @@ h2 {
 img {
     width: 100%;
     height: fit-content;
+    max-height: 57vh;
     background-color: #282828;
     object-fit: contain;
 }
@@ -829,7 +830,7 @@ footer p {
         top: -3vh !important;
     }
     img {
-        max-height: 35vh;
+        max-height: 57vh;
     }
 }
 
