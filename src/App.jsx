@@ -75,7 +75,7 @@ function App() {
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
-              <span>Hey</span>, <br></br>i’m Valentin !
+              <span>Hey</span>, <br></br>I’m Valentin !
             </h1>
             <h2
               data-aos="fade-right"
