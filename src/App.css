@@ -33,7 +33,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 2vw;
+    font-size: clamp(1.5rem, 2vw + .1rem, 2rem);
     font-weight: 500;
     width: 100%;
 }
@@ -100,7 +100,7 @@ body::-webkit-scrollbar-thumb {
 h1 {
     font-family: "Spartan-extra";
     font-weight: 800;
-    font-size: 5vw;
+    font-size: clamp(3.5rem, 5vw + .1rem, 6rem);
 }
 
 .intro span {
@@ -146,12 +146,12 @@ h2 {
 
 .content h1 {
     color: var(--main-color);
-    font-size: 4vw;
+    font-size: clamp(3.5rem, 4vw + .1rem, 5rem);
 }
 
 .content h2 {
     width: 100%;
-    font-size: 2.3vw;
+    font-size: clamp(2.5rem, 2.3vw + .1rem, 4rem);
     font-weight: 500;
     font-family: "Spartan-medium";
 }
@@ -172,7 +172,7 @@ h2 {
 
 .card h1 {
     font-family: "Spartan-extra";
-    font-size: 6vw;
+    font-size: clamp(7rem, 6vw + .1rem, 10rem);
     color: var(--text-color);
     opacity: 0.6;
     margin: 0;
@@ -181,17 +181,18 @@ h2 {
 
 .card h3 {
     color: var(--main-color);
-    font-size: 2.5vw;
+    font-size: clamp(2rem, 3vw + .1rem, 4rem);
     font-family: "Spartan-bold";
 }
 
 .card h4 {
-    font-size: 2vw;
+    font-size: clamp(1.8rem, 2.7vw + .1rem, 3rem);
     font-family: "Spartan-medium";
     font-weight: 500;
 }
 
 .card p {
+    font-size: clamp(1.5rem, 2.5vw + .1rem, 2rem);
     font-family: "Spartan-regular";
     font-weight: 400;
 }
@@ -350,11 +351,11 @@ h2 {
     position: absolute;
     right: -110%;
     top: -5vh;
-    font-size: 2.2vw;
+    font-size: clamp(1.5rem, 2.2vw + .1rem, 4rem)
 }
 
 .website {
-    font-size: 1.8vw !important;
+    font-size: clamp(1.8rem, 1.8vw + .1rem, 3rem) !important;
     width: fit-content !important;
     padding: 2%;
     border-radius: 25px;
@@ -481,7 +482,7 @@ img {
 }
 
 .card-project p {
-    font-size: 1.5vw;
+    font-size: clamp(1.25rem, 1.5vw + .1rem, 2.5rem);
     opacity: 0.7;
 }
 
@@ -534,7 +535,7 @@ img {
 }
 
 .contact-right form div label {
-    font-size: 1.5vw;
+    font-size: clamp(1.25rem, 1.5vw + .1rem, 3rem);
     margin-bottom: 2%;
 }
 
@@ -550,7 +551,7 @@ textarea,
 input {
     font-family: "Spartan-medium";
     color: white;
-    font-size: 1.3vw;
+    font-size: clamp(1.1rem, 1.3vw + .1rem, 2.6rem);
     padding-left: 2%;
 }
 
@@ -568,7 +569,7 @@ input:focus {
     font-family: "Spartan-medium";
     padding: 3%;
     width: 100%;
-    font-size: 1.8vw;
+    font-size: clamp(1.5rem, 1.8vw + .1rem, 2.5rem);
     border: 0;
     background-color: var(--main-color);
     color: white;
@@ -610,36 +611,36 @@ footer {
 }
 
 footer h1 {
-    font-size: 4vw;
+    font-size: clamp(2rem, 4vw + .1rem, 5rem);
 }
 
 footer h3 {
-    font-size: 2vw;
+    font-size: clamp(1.5rem, 2vw + .1rem, 3rem);
     cursor: pointer;
     position: relative;
     top: 50%;
 }
 
 footer p {
-    font-size: 1.5vw;
+    font-size: clamp(1.1rem, 1.5vw + .1rem, 2rem);
     color: var(--main-color);
 }
 
 .fa-chevron-up {
-    font-size: 1.5vw;
+    font-size: clamp(1.1rem, 1.5vw + .1rem, 2rem);
     color: var(--main-color);
 }
 
 .Toastify__toast--error {
     border-radius: 10px !important;
-    font-size: 1.05vw !important;
+    font-size: clamp(1rem, 1.05vw + .1rem, 1.5rem) !important;
     background: var(--background-color) !important;
     color: var(--text-color) !important;
 }
 
 .Toastify__toast--success {
     border-radius: 10px !important;
-    font-size: 1.05vw !important;
+    font-size: clamp(1rem, 1.05vw + .1rem, 1.5rem) !important;
     background: var(--background-color) !important;
     color: var(--text-color) !important;
 }
@@ -673,33 +674,9 @@ footer p {
         width: 80vw;
         margin: auto;
     }
-    h1 {
-        font-size: 12vw;
-    }
-    h2 {
-        font-size: 8vw;
-    }
     .intro h2,
     .intro p {
         width: 100%;
-    }
-    p {
-        font-size: 6vw;
-    }
-    .content h1 {
-        font-size: 8vw;
-    }
-    .content h2 {
-        font-size: 6vw;
-    }
-    .card h1 {
-        font-size: 14vw;
-    }
-    .card h3 {
-        font-size: 7vw;
-    }
-    .card h4 {
-        font-size: 6vw;
     }
     .info_container {
         margin-top: 10vh;
@@ -711,7 +688,6 @@ footer p {
         height: 30vh;
     }
     .size div {
-        font-size: 4vw;
         max-width: 70vw;
         padding-left: 5%;
     }
@@ -725,7 +701,6 @@ footer p {
         height: 50vh;
     }
     .website {
-        font-size: 5vw !important;
         margin-bottom: 10vh;
         padding: 5%;
     }
@@ -770,12 +745,7 @@ footer p {
     .card-con {
         flex-direction: column;
     }
-    .card-project h2 {
-        font-size: 8vw;
-    }
-    .card-project p {
-        font-size: 4vw;
-    }
+    .card-project h2 {}
     .content-card {
         width: 90%;
     }
@@ -790,34 +760,6 @@ footer p {
     }
     .contact-right {
         width: 100%;
-    }
-    .contact-right form div label {
-        font-size: 5vw;
-    }
-    input,
-    textarea {
-        font-size: 16px;
-    }
-    .contact-right form div button {
-        font-size: 4vw;
-    }
-    footer h1 {
-        font-size: 8vw;
-    }
-    footer .socialBar i {
-        font-size: 4vw;
-    }
-    footer p {
-        font-size: 4vw;
-    }
-    footer h3 {
-        font-size: 5vw;
-    }
-    .Toastify__toast--error {
-        font-size: 3vw !important;
-    }
-    .Toastify__toast--success {
-        font-size: 3vw !important;
     }
     .card_left {
         margin-bottom: 10%;

@@ -90,13 +90,10 @@ const Creator = () => {
         </div>
       </div>
 
-      <h2>
-        In particular, I have created a website (business) in connection with
-        this Instagram account where I list all the tutorials and where I offer
-        premium training.
+      <h2 style={{ marginBottom: "150px" }}>
+        I am developing a website in relation with this instagram account, where
+        I will offer tutorials and online courses.
       </h2>
-
-      <h2 className="website">vlt-devacademy.com</h2>
     </div>
   );
 };
