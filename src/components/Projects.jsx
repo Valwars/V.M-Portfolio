@@ -10,6 +10,13 @@ const Project = () => {
       languages: "Node JS, React JS, Mongo DB.",
     },
     {
+      title: "Cirimat",
+      content:
+        "Website where I had to redo the visual (UI/UX) of an old website of a company and also the front/back-end.",
+      img: "p5.png",
+      languages: "HTML, CSS, JS, PHP, SPIP.",
+    },
+    {
       title: "TopCoin",
       content:
         "TopCoin is one of my first 'big projects'. It is dedicated to the world of crypto-currencies and it contains several features such as: a quiz with ranking, articles, crypto-currency conversion, crypto-currency ranking and finally a wallet tracker.",
@@ -45,6 +52,7 @@ const Project = () => {
         <div className="card_right">
           <Card data={projects[1]}></Card>
           <Card data={projects[3]}></Card>
+          <Card data={projects[4]}></Card>
         </div>
       </div>
     </div>
