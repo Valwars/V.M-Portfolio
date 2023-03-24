@@ -227,6 +227,7 @@ h2 {
     margin: auto;
     width: fit-content;
     max-width: 30vw;
+    font-size: clamp(1.2rem, 2.7vw + .1rem, 3rem);
 }
 
 .size div:nth-child(1) {
