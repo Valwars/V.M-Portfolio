@@ -17,11 +17,19 @@ const Project = () => {
       languages: "HTML, CSS, JS, PHP, SPIP.",
     },
     {
+      title: "Sparkly",
+
+      content:
+        "Sparkly is a web-based dating application created as part of a year-end project. It includes features such as swipes, matches, chats, map management, and much more.",
+      img: "p6.png",
+      languages: "Node, React, Mongo DB.",
+    },
+    {
       title: "TopCoin",
       content:
         "TopCoin is one of my first 'big projects'. It is dedicated to the world of crypto-currencies and it contains several features such as: a quiz with ranking, articles, crypto-currency conversion, crypto-currency ranking and finally a wallet tracker.",
       img: "p2.png",
-      languages: "Node JS, React JS, Mongo DB.",
+      languages: "Node, React, Mongo DB.",
     },
     {
       title: "Lego Builder",
@@ -48,6 +56,7 @@ const Project = () => {
         <div className="card_left">
           <Card data={projects[0]}></Card>
           <Card data={projects[2]}></Card>
+          <Card data={projects[5]}></Card>
         </div>
         <div className="card_right">
           <Card data={projects[1]}></Card>
