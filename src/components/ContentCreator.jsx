@@ -90,10 +90,14 @@ const Creator = () => {
         </div>
       </div>
 
-      <h2 style={{ marginBottom: "150px" }}>
+      <h2>
         I am developing a website in relation with this instagram account, where
         I will offer tutorials and online courses.
       </h2>
+
+      <a className="website" href="https://vlt-devacademy.com/" target="_blank">
+        Visit the website
+      </a>
     </div>
   );
 };

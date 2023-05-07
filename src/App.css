@@ -356,7 +356,10 @@ h2 {
 }
 
 .website {
-    font-size: clamp(1.8rem, 1.8vw + .1rem, 3rem) !important;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: clamp(1.4rem, 1.8vw + .1rem, 3rem) !important;
     width: fit-content !important;
     padding: 2%;
     border-radius: 25px;
@@ -365,7 +368,7 @@ h2 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: auto;
     font-family: "Spartan-medium" !important;
-    margin-bottom: 10%;
+    margin-bottom: 250px;
 }
 
 .second {
